@@ -1,0 +1,13 @@
+-Cambiar el tamaño de las imagenes a uno std del catalogo de food menu
+por que se rebalsan del div.
+-Agregar el contact us page.
+-Agregar el responsive.
+-El carrito & JS.
+-Formulario de pago
+-Thank your for purchase
+-Modificar el header para el responsive queda muy grueso
+-discutir los vinculos de food menu
+//Link for the shopping cart
+https://webdevtrick.com/javascript-shopping-cart/
+
+Se ha usado el mismo ID en FAQS

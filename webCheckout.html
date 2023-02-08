@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/android-chrome-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/site.webmanifest" />
+    <script src="js/carrito.js"></script>
+    <title>Check out</title>
+  </head>
+  <body>
+    <header>
+      <div class="contenedor">
+        <div class="logo">
+          <a href="index.html"
+            ><img src="images/logo.jpg" alt="Logo Mc donalds"
+          /></a>
+        </div>
+        <div class="numerales">
+          <a href="foodmenu.html" type="button"><h3>Food Menu</h3></a>
+          <a href="aboutus.html" type="button"><h3>About us</h3></a>
+          <a href="contactus.html" type="button"><h3>Contact us</h3></a>
+        </div>
+        <div class="carrito">
+          <a href="foodmenu.html"><img src="images/cart.svg" alt="" /></a>
+        </div>
+      </div>
+    </header>
+    <div class="webCheck-Container">
+        <div>
+        <div>
+            <h5 class="thanks">Just one more step</h5>
+            <p>
+                Please fill out all the * marked fields 
+            </p>
+            <p>
+                (Credit card only)
+            </p>
+        </div>
+        
+        <div class="ContenedorDeCheckOut">
+            <form id="forma" name="forma" action="">
+            
+                <div class="checkout">
+                    <input type="text" id="Name" name="Name"  placeholder="Type your name*" required>
+                </div>
+                
+                <div class="checkout">
+                    <!-- <input onkeyup="check()" id="email" type="text" autocomplete="off" placeholder="Correo electronico">
+                    <span class="icon1 fas fa-exclamation"></span>
+                    <span class="icon2 fas fa-check"></span>-->
+                   <input type="email" id="Address" name="Address" placeholder="Type your e-mail*" required>
+                </div>
+                
+                <div class="checkout">
+    				<input type="text" id="Home Address" name="home address" placeholder="Type your Home address*" required>
+                </div>
+                
+                <div class="checkout">
+    				<input type="text" id="Phone Number" name="Phone Number" placeholder="Type your Phone Number*" required>
+                </div>
+                
+                
+                <div class="checkout">
+                    <label for="Name*">Credit card number*</label>
+                    <input type="password" id="Credit card number" name="Credit card number" placeholder="Type your Credit card number*" minlength="16" maxlength="16" required>
+                </div>
+                
+                <div class="checkout">
+                    <label for="Name*">CVV*</label>
+                    <input type="text" id="CVV" name="CVV" minlength="3" placeholder="Type your CVV*" maxlength="3" required>
+                </div>
+                
+                <div class="checkout">
+                    <label for="Name*">Expiration date*</label>
+                    <input type="date" id="Expiration date" name="Expiration date" placeholder="Type your Expiration date" required>
+                </div>
+                
+                <div id="totalYPayNow">
+                  <div id="agree">
+                    <input type="checkbox" required="true" >
+                  </div>
+                <div>
+                    I accept terms and conditions
+                  </div>
+                </div>
+            
+        </div>
+        <div id="totalYPayNow">         
+            <div >
+                <input type="submit" value="Pay now" id="paynow"  formaction="thanks.html">
+            </div>
+        </div>
+    </div>
+    
+  </form>
+        <div id="imagencheckout">
+            <img src="images/burger2.jpeg" alt="">
+          </div>
+          </div>
+    </div>
+
+    <footer>
+      <div class="wrapper-footer">
+        <div class="row-1">
+          <p>Let's stay connected...</p>
+        </div>
+        <div class="row-2">
+          <div class="col-4">
+            <a class="twitter" href="http://www.twitter.com" target="_blank"><img class="img-redes"
+                src="images/twitter-square-brands.svg" alt="" /></a>
+            <a class="youtube" href="http://www.youtube.com" target="_blank"><img class="img-redes"
+                src="images/youtube-square-brands.svg" alt="" /></a>
+            <a class="facebook" href="http://www.facebook.com/" target="_blank"><img class="img-redes"
+                src="images/facebook-square-brands.svg" alt="" /></a>
+            <a class="instagram" href="http://www.instagram.com" target="_blank"><img class="img-redes"
+                src="images/instagram-square-brands.svg" alt="" /></a>
+          </div>
+          <div>
+            <a href="FAQs.html" id="faqs">FAQs</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  </html>
